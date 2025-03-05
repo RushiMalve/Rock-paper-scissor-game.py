@@ -11,7 +11,7 @@ def display_text_with_duration(frame, text, position, duration_ms):
 detector = HandDetector(detectionCon=0.9, maxHands=2)
 video = cv2.VideoCapture(0)
 engine = pyttsx3.init()
-engine.say("WELCOME TO THE GAME")
+engine.say("WELCOME TO THE GAME BY RUSHI")
 engine.runAndWait()
 engine.stop()
 
